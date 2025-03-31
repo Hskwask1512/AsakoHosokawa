@@ -1,35 +1,177 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me | Asako Hosokawa</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Zen Kaku Gothic New', sans-serif;
+      font-weight: 500;
+      color: #666;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #345c4c;
+      margin-bottom: 0.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #cc6699;
+      font-weight: 700;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #cc6699;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      font-weight: 700;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ffffff;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>About Me</h1>
+    <div style="text-align: center;">
+  <h1>About Me</h1>
+  <p style="font-size: 0.85rem; color: #999; margin-top: 0.2rem;">＞ 2025.04.01</p>
+</div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html"aAbout Me</a></li>
-        <li><a href="research.html">研究内容</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="research.html">Research</a></li>
         <li><a href="publications.html">Publications</a></li>
-        <li><a href="links.html">Links</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h2>プロフィール</h2>
-      <p><strong>Name:</strong> 細川亜佐子 (Hosokawa Asako)</p>
-      <p><strong>Email:</strong> 準備中</p>
-      <p><strong>Affiliation:</strong>日本学術振興会　特別研究員PD</p>
-      <ul>
-        <li>青山学院大学　大学院教育人間科学研究科</li>
-      </ul>
-    </section>
+    <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap;">
+  <div>  
+    <h2>所属</h2>
+    <ul>
+      <li>青山学院大学 大学院教育人間科学研究科</li>
+      <li>日本学術振興会 特別研究員（PD）</li>
+    </ul>
+  </div>
+  <div style="text-align: center;">
+  <img src="image2.png" alt="博士修了写真" style="max-width: 140px; border-radius: 8px;">
+  <p style="font-size: 0.75rem; color: #999; margin-top: 0.5rem;">祝・博士号で講座の皆からちいかわぬいぐるみをいただき、大変嬉しい<br>（2025.03.25. ＠名大）</p>
+</div>
+  </div>
+      </div>
+    
+    <h2>学歴</h2>
+    <ul>
+      <li>2025/03　名古屋大学 大学院情報学研究科 心理・認知科学専攻 修了</li>
+      <li>2022/03　聖心女子大学 大学院文学研究科 人間科学専攻 臨床心理学研究領域 修了</li>
+      <li>2020/03　聖心女子大学 文学部 心理学科 卒業</li>
+    </ul>
+
+    <h2>資格</h2>
+    <ul>
+      <li>2023　公認心理師</li>
+      <li>2023　臨床心理士</li>
+    </ul>
+
+    <h2>経歴</h2>
+    <ul>
+      <li>2025/04–2028/03　日本学術振興会 特別研究員（PD） 受入研究機関：青山学院大学</li>
+      <li>2023/04–2025/03　日本学術振興会 特別研究員（DC2）受入研究機関：名古屋大学</li>
+      <li>2022/10–2023/03　東海国立大学機構 融合フロンティア次世代リサーチャー（革新的学際分野）</li>
+    </ul>
+
+    <h2>臨床歴</h2>
+    <ul>
+      <li>2022/04–2025/03　聖心女子大学 心理教育相談所 特任相談員</li>
+      <li>2022/04–2025/03　小石川東京病院 非常勤心理士</li>
+    </ul>
+
+    <h2>教育歴</h2>
+    <ul>
+      <li>2023/10–2023/12　名古屋大学  心理・認知科学データ解析 ティーチング・アシスタント </li>
+      <li>2020/10–2021/03　聖心女子大学 心理学実験演習３ ティーチング・アシスタント </li>
+      <li>2020/10–2021/03　聖心女子大学 基礎情報処理技法 ティーチング・アシスタント </li>
+      <li>2020/10–2021/03　聖心女子大学 心理学実験 ティーチング・アシスタント </li>
+    </ul>
+        <h2>賞罰</h2>
+    <ul>
+      <li>2024/07-2025/03 日本学術振興会　研究奨励金特別手当</li>
+      <li>2020/04　　　　令和2年度 聖心女子大学大学院特別奨学金</li>
+    </ul>
+    
+        <h2>研究獲得資金</h2>
+    <ul>
+      <li>2025/04-2028/03　日本学術振興会 科学研究費助成事業 特別研究員奨励費<div>「アレキシサイミアの言語ー感情メカニズムの解明：AIシステムによる感情理解の支援」</div></li>
+      <li>2023/04-2025/03　日本学術振興会 科学研究費助成事業 特別研究員奨励費<div>「物語理解時の心的シミュレーションに関する研究：対人能力向上メカニズムの解明と応用 
+」</div></li>
+      <li>2022/10-2023/03　科学技術振興機構 JST 次世代研究者挑戦的研究プログラム<div>「物語理解時の心的シミュレーションが読者の感情および社会性に及ぼす影響」</div></li>
+      <li>2023/02        　日本認知心理学会 若手研究者派遣事業 韓国認知生物心理学会年次大会への発表参加支援</li>
+    </ul>
+ 
+    <h2>査読歴</h2>
+    <ul>
+      <li>Quarterly Journal of Experimental Psychology </li>
+    </ul>
+
+    <h2>所属学会</h2>
+    <ul>
+      <li>2024　The Society for Personality and Social Psychology</li>
+      <li>2024　日本社会心理学会</li>
+      <li>2024　日本大学メンタルヘルス学会</li>
+      <li>2023　日本学校メンタルヘルス学会</li>
+      <li>2023　Society for Applied Research in Memory and Cognition</li>
+      <li>2023　日本心理臨床学会</li>
+      <li>2023　Association for Psychological Science</li>
+      <li>2022　日本パーソナリティ心理学会</li>
+      <li>2022　日本認知心理学会</li>
+      <li>2022　日本心理学会</li>
+    </ul>
   </main>
 
   <footer>
