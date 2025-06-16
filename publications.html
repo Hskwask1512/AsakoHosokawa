@@ -1,43 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications | Asako Hosokawa</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asako Hosokawa | Researcher</title>
+  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #fff0f5;
+      background-color: #fff0f5; /* 淡いピンク */
       font-family: 'Zen Kaku Gothic New', sans-serif;
       font-weight: 500;
-      color: #333;
       margin: 0;
       padding: 0;
+      color: #666; /* 本文・通常テキストの色を統一 */
     }
+
     header {
       text-align: center;
       padding: 2rem 1rem;
       background-color: #ffffff;
     }
+
     h1 {
-      font-size: 2.5rem;
+      font-family: 'Zen Kaku Gothic New', sans-serif;
       font-weight: 700;
-      color: #345c4c;
+      font-size: 3rem;
+      color: #345c4c; /* 緑色に変更 */
       margin-bottom: 0.5rem;
     }
+
+    header p {
+      margin: 0;
+      font-size: 1rem;
+      color: #666;
+      font-weight: 500;
+    }
+
     nav ul {
       list-style: none;
       padding: 0;
-      margin-top: 1rem;
+      margin: 2rem 0 0;
       display: flex;
       justify-content: center;
       gap: 1.5rem;
     }
+
     nav a {
       text-decoration: none;
       color: #cc6699;
       font-weight: 700;
+      transition: color 0.3s;
     }
+
+    nav a:hover {
+      color: #a64d79;
+    }
+
     main {
       max-width: 800px;
       margin: 2rem auto;
@@ -46,39 +66,64 @@
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
     h2 {
+      font-family: 'Zen Kaku Gothic New', sans-serif;
+      font-weight: 700;
       color: #cc6699;
-      font-size: 1.5rem;
-      margin-top: 2rem;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 0.5rem;
-    }
-    ol {
-      margin-left: 1.2rem;
-      padding-left: 0.5rem;
-    }
-    li {
+      font-size: 2rem;
       margin-bottom: 1rem;
+    }
+
+    .news-heading {
+      font-family: 'Zen Kaku Gothic New', sans-serif;
+      font-weight: 700;
+      color: #345c4c;
+      font-size: 2rem;
+      text-align: center;
+      margin: 1.5rem 0 1rem;
+    }
+
+    .news-entry {
+      text-align: left;
+      font-size: 1rem;
+      color: #666;
       line-height: 1.8;
+      padding: 0 1rem;
     }
-    .author {
-      text-decoration: underline;
+
+    .research-block {
+      background-color: #fdf6f9;
+      border-left: 4px solid #cc6699;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-radius: 8px;
     }
+
+    .research-block h3 {
+      margin-top: 0;
+      color: #345c4c;
+      font-size: 1.3rem;
+    }
+
     footer {
       text-align: center;
       padding: 1rem;
       background-color: #ffffff;
-      font-size: 0.9rem;
       color: #999;
+      font-size: 0.9rem;
+      font-weight: 500;
     }
   </style>
 </head>
 <body>
   <header>
-    <div style="text-align: center;">
-      <h1>Publications</h1>
-      <p style="font-size: 0.85rem; color: #999; margin-top: 0.2rem;">＞ 2025.06.16</p>
-    </div>
+    <h1>Asako Hosokawa</h1>
+
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -89,54 +134,53 @@
       </ul>
     </nav>
   </header>
+
   <main>
-    <h2>査読付き論文</h2>
-    <ol>    
-      <li><span class="author">Hosokawa, A.</span>, & Kitagami, S. (2024). Visuospatial perspective-taking of a protagonist during narrative comprehension: The effects of task load and individual differences in visuospatial working memory. <i>Frontiers in Psychology</i>. https://doi.org/10.3389/fpsyg.2024.1379472</li>
-      <li><span class="author">細川亜佐子</span>・北神慎司 (2024). 物語理解時の共感的反応における視空間的処理と心的イメージの関連性.<i>認知心理学研究, 21</i>, 101–109.https://doi.org/10.5265/jcogpsy.21.101</li>
-      <li>北神慎司・酢田千晴・<span class="author">細川亜佐子</span> (2024). 提示形式の違いがピクトグラムの視認性に与える影響の検討. <i>日本教育工学会</i>, 33–36.</li>
-      <li><span class="author">細川亜佐子</span>・北神慎司 (2023). アレキシサイミア傾向者の共感性に対する再評価方略の効果. <i>パーソナリティ研究, 32</i>, 72–74. https://doi.org/10.2132/personality.32.2.3</li>
-      <li><span class="author">細川亜佐子</span>・太田直斗・北神慎司 (2023). 物語理解時の共感的反応における視空間作動記憶の役割.<i>心理学研究, 94</i>, 76–81.https://doi.org/10.4992/jjpsy.94.22305</li>
-      <li><span class="author">細川亜佐子</span> (2022). 文章理解時の知覚的処理における視点の効果.<i>人間環境学研究, 20</i>, 23–28. https://doi.org/10.4189/shes.20.23</li>
-    </ol>
-    </div>
-    <h2>Preprint</h2>
-    <ol>    
-      <li><span class="author">Hosokawa, A.</span>, & Takano, R. (2025). Adaptive and Maladaptive Influences of Alexithymia on Affective Disorders: Through Empathy and Emotion Regulation. <i>PsyArXiv</i>. https://osf.io/preprints/psyarxiv/n6zrp_v1</li>
-    </ol>
-    </div>
-    <ol>  
-    <h2>国内学会発表</h2>
-<ol>  
-      <li><span class="author">細川亜佐子</span> (2025年6月1日). 物語に入り込めない人は本を読まない?―アレキシサイミア傾向と読書経験の媒介的関係― . 日本認知心理学会第23回大会.</li> 
-      <li>太田直斗, <span class="author">細川亜佐子</span>, 望月正哉 (2024年9月7日). 比喩的表現は動詞を脱身体化させるのか ―文法性判断を用いた検討―. 日本心理学会第88回大会.</li>
-  <li><span class="author">細川亜佐子</span>,北神慎司 (2024年9月6日). 心的イメージ能力の個人差に関する客観的な測定手法 日本語版心的イメージ比較課題の開発. 日本心理学会第88回大会. </li>
-      <li><span class="author">細川亜佐子</span>, 北神慎司 (2024年6月2日). 物語理解時の視空間的視点取得が登場人物への同一化に及ぼす影響. 日本認知心理学会第22回大会.</li>
-      <li>太田直斗, <span class="author">細川亜佐子</span>, 望月正哉, 北神慎司 (2024年6月1日). 社会性と感覚運動情報はピクトグラム認知の基盤となりうるのか. 日本認知心理学会第22回大会.</li>
-      <li><span class="author">細川亜佐子</span>, 相澤直子, 川嶋真紀子, 鶴田綾香 (2024年3月16日). 発達障害学生を対象としたグループプログラムの援用可能性に関する効果検証と課題抽出. 日本学校メンタルヘルス学会.</li>
-      <li><span class="author">細川亜佐子</span>, 北神慎司 (2023年9月16日). 物語の登場人物に対する視空間的な視点の転換. 日本心理学会第88回大会.</li>
-      <li><span class="author">細川亜佐子</span>, 北神慎司 (2023年7月1日). 物語理解時の共感における視空間的処理の検討―二重課題と心的イメージ指標との関連―. 日本認知心理学会第21回大会.</li>
-      <li><span class="author">細川亜佐子</span>, 北神慎司 (2022年10月). 感情制御方略がアレキシサイミア傾向と共感性の関連に及ぼす影響. 日本認知心理学会第20回大会.</li>
-      <li><span class="author">細川亜佐子</span>, 太田直斗, 北神慎司 (2022年9月). 物語理解時の共感的反応に視空間作動記憶が及ぼす影響. 日本心理学会第86回大会.</li>
-      <li><span class="author">細川亜佐子</span>, 永井淳一 (2021年3月). 文章理解において生成される知覚的表象に関する研究ー文章の視点の違いによって生成される表象は異なるのか？ー. 日本認知心理学会第18回大会.</li>
-</ol>
-</div>
-    <h2>国際学会発表</h2>
-        <ol>
-      <li><span class="author">Hosokawa, A.</span>, & Kitagami, S. (2023, October 21). Does readers shift visuo-spatial perspective of characters in narrative? 62nd Taiwan Psychology Annual Conference.</li>
-      <li>Ota, N., Takeno, M., <span class="author">Hosokawa, A.</span>, & Kitagami, S. (2023, October 21). Does attention to the functional end occur even in the semantic processing of objects? 62nd Taiwan Psychology Annual Conference.</li>
-      <li><span class="author">Hosokawa, A.</span>, & Kitagami, S. (2023, August 12). A replication study on visuospatial processing in empathic responses during narrative comprehension. The Society for Applied Research in Memory and Cognition.</li>
-      <li><span class="author">Hosokawa, A.</span>, & Kitagami, S. (2023, March 10). Does Emotion Regulation Promote Empathy in Alexithymia? International Convention of Psychological Science.</li>
-      <li><span class="author">Hosokawa, A.</span>, Ota, N., & Kitagami, S. (2023, February 15). Individual differences in visuospatial working memory and perceptual processes in empathic responses during narrative comprehension. The Korean Society for Cognitive and Biological Psychology.</li>
-      <li><span class="author">Hosokawa, A.</span>, Ota, N., & Kitagami, S. (2022, November). Influence of visuospatial working memory on the effects of empathy during narrative comprehension. OPAM 30th Annual Meeting.</li>
-    </ol>
-</div>
-    <h2>研究会発表</h2>
-<ol>  
-<li><span class="author">細川亜佐子</span> (2024年2月). 非類似的な登場人物への共感的反応に対する物語理解の視空間的処理プロセス. ディスコース心理学研究部会第33回定例研究会.</li>
-      <li><span class="author">細川亜佐子</span> (2023年3月). 物語理解時の視空間的な視点取得は登場人物に対する共感的反応を引き起こすのか. ディスコース心理学研究部会第31回定例研究会. </li>
-    </ol>
+    <section id="home">
+      <h2 style="text-align: center; color: #cc6699; font-size: 2rem; margin-bottom: 0.5rem;">
+        ＼ Wellcome！ ／
+      </h2>
+      <p style="text-align: center;">
+        このサイトは、青山学院大学／日本学術振興会PD　細川亜佐子のHPです。
+      </p>
+    </section>
     
+    </section>
+    
+    
+    </section>
+
+    <div class="research-block">
+      <h3 style="text-align: center; font-size: 1.8rem; color: #345c4c; margin-bottom: 1rem;">
+        NEWS
+      </h3>
+      <div class="news-entry">
+        <p>
+          2025年6月16日　<strong>論文のpreprint</strong> を公開しました。
+        </p>
+        <p style="font-size: 0.8rem; color: #cc6699; margin-left: 1rem;">
+          ⚫︎ アレキシサイミアの二側面が共感と感情制御を通じてメンタルヘルスに与える影響を検討した論文です。
+        </p>
+        <p style="font-size: 0.8rem; color: #cc6699; margin-left: 1rem; text-indent: -1.1rem; padding-left: 2.1rem;">
+          　　Hosokawa, A., & Takano, R. (2025). <em>Adaptive and Maladaptive Influences of Alexithymia on Affective Disorders: Through Empathy and Emotion Regulation.</em> [Preprint]. <em>PsyArXiv</em>. 
+          <a href="https://osf.io/preprints/psyarxiv/n6zrp_v1" target="_blank">https://osf.io/preprints/psyarxiv/n6zrp_v1</a>
+        </p>
+        </p>
+          2025年5月2日　<strong> 日本認知心理学会</strong> にて発表します。
+        </p>
+        <p style="font-size: 0.8rem; color: #cc6699; margin-left: 1rem;">
+          ⚫︎ ポスター発表　6月1日（日）11:00-12:00 </p>
+          <p style="font-size: 0.8rem; color: #cc6699; margin-left: 0.5rem;">
+    
+          　　　細川亜佐子 (2025)．物語に入り込めない人は本を読まない？‐アレキシサイミア傾向と読書経験の媒介的関係‐．</p>
+        </p>
+        </p>
+        <p>2025年4月1日　 日本学術振興会 特別研究員PDとなりました。受入研究機関は青山学院大学です。</p>
+        <p>2025年3月25日　名古屋大学にて、博士（学術）を取得しました。</p>
+      </div>
+    </div>
+       
+
   <footer>
     <p>&copy; 2025 Asako Hosokawa</p>
   </footer>
